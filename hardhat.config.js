@@ -2,7 +2,7 @@
 require('dotenv').config();
 require("@nomiclabs/hardhat-ethers");
 
-const { API_URL, PRIVATE_KEY_1, MUMBAI_API_URL } = process.env;
+const { API_URL, PRIVATE_KEY_1, MUMBAI_API_URL, OPTIMISM_API_URL } = process.env;
 
 module.exports = {
    solidity: "0.8.17",
@@ -17,6 +17,10 @@ module.exports = {
         url: MUMBAI_API_URL,
         accounts: [`0x${PRIVATE_KEY_1}`]
       },
+      optimism: {
+         url: OPTIMISM_API_URL,
+         accounts: [`0x${PRIVATE_KEY_1}`]
+       },
      // metis: {
      //    url: API_URL,
      //    accounts: [`0x${PRIVATE_KEY_1}`]
