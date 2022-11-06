@@ -1,6 +1,6 @@
 # Zero Trust Access Protocol - ZTAP
 
-1. This includes a zApp implementation with EY Starlight for Access Controls on multi chain (AccessControl.zol)
+1. This includes a zApp implementation with EY Starlight for Access Controls on multi chain (contracts/AccessControl.zol)
 
 2. Frontend implementation on dataplace nft market - https://github.com/shadmoney/data-market
 
@@ -8,7 +8,7 @@
 
 4. Subgraph - https://github.com/shadmoney/ztap-subgraph
 
-5. Push Chat implemented on Profile page
+5. Push Chat implemented on Profile page on data-market frontend
 
 6. ZTAP contracts and NFT contracts deployed on Skale, Optimism, EVMOS, Polygon
 
